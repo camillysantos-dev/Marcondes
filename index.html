@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Colégio Marcondes - Educação de Qualidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <a href="mailto:colegiomarcondes@gmail.com"><i class="fas fa-envelope"></i>
+                        colegiomarcondes@gmail.com</a>
+                    <a href="tel:+551139932714"><i class="fas fa-phone-alt"></i> (11) 3993-2714</a>
+                    <a href="https://wa.me/5511947493304" target="_blank"><i class="fab fa-whatsapp"></i> (11)
+                        94749-3304</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/colegiomarcondes" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/colegiomarcondessp/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <button class="accessibility-btn" id="accessibilityBtn"><i
+                            class="fas fa-universal-access"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <div class="logo-area">
+                    <div class="logo-wrapper">
+                        <img src="https://static.wixstatic.com/media/ac5a35_81b5ffb5b8ca4de286ef65eb17a70438~mv2.png/v1/crop/x_10,y_102,w_1039,h_1197/fill/w_223,h_262,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20-%20Col%C3%A9gio%20Marcondes.png"
+                            alt="Logo Colégio Marcondes" class="logo">
+                    </div>
+                    <div class="school-name">
+                        <h1>Colégio Marcondes</h1>
+                        <p>Educação Infantil - Fundamental I e II - Ensino Médio</p>
+                    </div>
+                </div>
+                <div class="header-badges">
+                    <div class="badge">
+                        <img src="https://static.wixstatic.com/media/ac5a35_eb440ffec8034181a7e9f1c79e6d30c8~mv2.png/v1/crop/x_57,y_41,w_380,h_369/fill/w_157,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logos_Poliedro_CMYK_EscolaAssociada%20(2).png"
+                            alt="Poliedro">
+                    </div>
+                    <div class="badge">
+                        <img src="https://static.wixstatic.com/media/ac5a35_5a5bcb958bc54fffbdf4d10485c05bd4~mv2.png/v1/fill/w_75,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ac5a35_5a5bcb958bc54fffbdf4d10485c05bd4~mv2.png"
+                            alt="Selo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#robotics">Robótica</a></li>
+                    <li><a href="#scholarship">Bolsas 2026</a></li>
+                    <li><a href="#material">Lista de Material</a></li>
+                    <li><a href="#schedule">Horários</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn-matricula" id="btnMatricula">Matricule-se</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Carousel Moderno -->
+    <section class="hero-carousel" id="home">
+        <div class="carousel-container">
+            <div class="carousel-slides" id="carouselSlides">
+                <div class="slide active">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <span class="slide-tag">Bem-vindo ao Futuro</span>
+                            <h2>Excelência em Educação <span class="highlight">Há mais de 16 anos</span></h2>
+                            <p>Formando cidadãos críticos, éticos e preparados para os desafios do século XXI</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500"
+                                alt="Estudantes">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <span class="slide-tag">Diferenciais</span>
+                            <h2>Parceria com o <span class="highlight">Sistema Poliedro</span></h2>
+                            <p>Material didático de excelência e preparação completa para vestibulares e ENEM</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=500" alt="Aula">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <span class="slide-tag">Inovação</span>
+                            <h2>Robótica <span class="highlight">Educacional</span></h2>
+                            <p>Programa completo que desenvolve pensamento computacional, criatividade e trabalho em
+                                equipe</p>
+                            <div class="slide-buttons">
+                                <a href="#robotics-program" class="btn-primary">Saiba mais <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slide-image">
+                            <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=500"
+                                alt="Robótica">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" id="carouselPrev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next" id="carouselNext"><i class="fas fa-chevron-right"></i></button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <div class="carousel-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section COM BOTÃO MODAL -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">Quem Somos</span>
+                    <h2>Uma instituição comprometida com o <span class="gradient-text">futuro dos seus filhos</span>
+                    </h2>
+                    <p>O Colégio Marcondes é referência em educação há mais de 16 anos, oferecendo uma formação completa
+                        que vai além do conteúdo acadêmico. Acreditamos no desenvolvimento integral do aluno,
+                        preparando-o para os desafios da vida com valores sólidos e conhecimento de ponta.</p>
+                    <button class="btn-primary" id="aboutModalBtn">Saiba mais sobre nós <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500"
+                            alt="Colégio Marcondes">
+                        <div class="experience-badge">
+                            <span>16+</span>
+                            <p>Anos de<br>Excelência</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Sobre (conteúdo completo) -->
+    <div class="modal-overlay" id="aboutModal">
+        <div class="modal-container">
+            <button class="modal-close" id="closeModalBtn"><i class="fas fa-times"></i></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fas fa-school"></i>
+                    <h2>Colégio Marcondes</h2>
+                    <p>Educação que transforma vidas</p>
+                </div>
+
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <div class="section-icon"><i class="fas fa-history"></i></div>
+                        <div class="section-text">
+                            <h3>Quem somos?</h3>
+                            <p>O Colégio Marcondes foi fundado pelas irmãs <strong>Cristiane e Tatiane
+                                    Marcondes</strong>, realizando assim um sonho.</p>
+                            <p>O objetivo principal do colégio sempre será o de criar um ambiente acolhedor e propício
+                                ao desenvolvimento de seus alunos e colaboradores.</p>
+                            <p>As mantenedoras acreditam que para a formação das crianças e adolescentes é necessário
+                                uma base sólida e bem estruturada e isso depende da parceria entre a família e o colégio
+                                ensinando-os dentro de bases firmes e dos princípios fundamentais da ética, do respeito
+                                e da dignidade, para que não sejam meros possuidores de conhecimentos, mas protagonistas
+                                de suas vidas e que possam fazer as suas próprias escolhas.</p>
+                            <div class="quote-box">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"É necessário que o aluno compreenda que pode mudar o mundo, começando por ele
+                                    mesmo... tudo é apenas uma questão de optar pela decisão certa, e nós estamos
+                                    dispostos e focados em ajudar nessa aventura de crescer e alçar novos horizontes,
+                                    onde o céu é o limite..."</p>
+                                <span class="quote-author">— Cristiane e Tatiane Marcondes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <div class="section-icon"><i class="fas fa-bullseye"></i></div>
+                        <div class="section-text">
+                            <h3>Nossa Missão</h3>
+                            <p>Oferecer um ensino de qualidade utilizando um sistema de ensino de tradição como o
+                                <strong>Poliedro</strong> que tem o objetivo de resgatar em cada criança a consciência,
+                                os valores e o respeito ao próximo, além de contribuir para o aprendizado e cultura para
+                                que cada um consiga atingir uma formação íntegra e de qualidade.</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <div class="section-icon"><i class="fas fa-eye"></i></div>
+                        <div class="section-text">
+                            <h3>Nossa Visão</h3>
+                            <p>Tornar o Colégio uma referência no âmbito da educação de qualidade inovando sempre suas
+                                propostas pedagógicas e formando cidadãos mais íntegros e conscientes.</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <div class="section-icon"><i class="fas fa-heart"></i></div>
+                        <div class="section-text">
+                            <h3>Nossos Valores</h3>
+                            <div class="values-grid">
+                                <div class="value-item"><i class="fas fa-balance-scale"></i><span>Ética</span></div>
+                                <div class="value-item"><i class="fas fa-crosshairs"></i><span>Foco</span></div>
+                                <div class="value-item"><i class="fas fa-tasks"></i><span>Responsabilidade</span></div>
+                                <div class="value-item"><i class="fas fa-hand-peace"></i><span>Respeito</span></div>
+                                <div class="value-item"><i class="fas fa-users"></i><span>Diversidade</span></div>
+                                <div class="value-item"><i class="fas fa-star"></i><span>Qualidade</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="#contact" class="btn-primary modal-cta">Fale conosco <i class="fas fa-comment"></i></a>
+                    <a href="#material" class="btn-outline modal-cta-outline">Lista de Material <i
+                            class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursos Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossa Oferta</span>
+                <h2>Cursos <span class="gradient-text">oferecidos</span></h2>
+                <p>Da Educação Infantil ao Ensino Médio, uma jornada completa de aprendizado</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-child"></i></div>
+                    <h3>Educação Infantil</h3>
+                    <ul>
+                        <li>Maternal II</li>
+                        <li>Jardim I (4 anos)</li>
+                        <li>Jardim II (5 anos)</li>
+                    </ul>
+                    <div class="course-feature">Desenvolvimento lúdico e socioemocional</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>Ensino Fundamental I</h3>
+                    <ul>
+                        <li>1º ao 5º Ano</li>
+                    </ul>
+                    <div class="course-feature">Base sólida para o aprendizado</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Ensino Fundamental II</h3>
+                    <ul>
+                        <li>6º ao 9º Ano</li>
+                    </ul>
+                    <div class="course-feature">Preparação acadêmica avançada</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Ensino Médio</h3>
+                    <ul>
+                        <li>1º ao 3º Ano</li>
+                    </ul>
+                    <div class="course-feature">Preparatório para vestibulares e ENEM</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Robótica Section Principal -->
+<section class="robotics" id="robotics">
+    <div class="container">
+        <div class="robotics-content">
+            <span class="section-tag light">Diferencial</span>
+            <h2>Programa de <span class="gradient-text">Robótica Educacional</span></h2>
+            <p>Você já imaginou construir um robô com as próprias mãos? A robótica educacional é uma ferramenta poderosa que une aprendizado e diversão, criando um ambiente de aquisição de conhecimento de forma ativa, lúdica e significativa. Aprender com o criar e brincar transforma a sala de aula em um laboratório de experiências, no qual o erro faz parte do processo de aprendizado, motivando os estudantes a explorarem novas descobertas com protagonismo e permitindo que as crianças e os adolescentes desenvolvam habilidades de raciocínio lógico, aprendam sobre resolução de problemas e trabalho em equipe.</p>
+            <div class="robotics-features">
+                <div class="feature-item"><i class="fas fa-microchip"></i><span>Kits LEGO Education</span></div>
+                <div class="feature-item"><i class="fas fa-code"></i><span>Programação e Lógica</span></div>
+                <div class="feature-item"><i class="fas fa-trophy"></i><span>Competições Nacionais</span></div>
+            </div>
+            <a href="#robotics-program" class="btn-primary">Conheça o programa <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="robotics-image">
+            <img src="https://static.wixstatic.com/media/ac5a35_24695b9831af40a98b31b77e57fb71a7~mv2.jpg/v1/fill/w_359,h_357,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ac5a35_24695b9831af40a98b31b77e57fb71a7~mv2.jpg" alt="Robótica">
+            <div class="floating-card"><i class="fas fa-robot"></i><span>+10 anos de Robótica</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- Programa de Robótica - Detalhado COM BOTÃO WHATSAPP -->
+<section class="robotics-program" id="robotics-program">
+    <div class="container">
+        <div class="program-header">
+            <span class="section-tag">Conheça o Programa</span>
+            <h2>Robótica <span class="gradient-text">Educacional</span></h2>
+            <p>O que se aprende brincando com robôs?</p>
+        </div>
+        <div class="program-grid">
+            <div class="program-card">
+                <div class="program-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Nível 1 - Introdução</h3>
+                <p>Fundamentos da robótica, lógica de programação e montagem de protótipos simples utilizando kits educacionais.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Programação com blocos lógicos</li>
+                    <li><i class="fas fa-check"></i> Pensamento computacional</li>
+                    <li><i class="fas fa-check"></i> Conceitos de física (movimento, força, energia)</li>
+                    <li><i class="fas fa-check"></i> Matemática (ângulos, distâncias, proporções)</li>
+                </ul>
+            </div>
+            <div class="program-card">
+                <div class="program-icon"><i class="fas fa-microchip"></i></div>
+                <h3>Nível 2 - Intermediário</h3>
+                <p>Desenvolvimento de projetos mais complexos, sensores, atuadores e programação avançada com Arduino.</p>
+            </div>
+            <div class="program-card">
+                <div class="program-icon"><i class="fas fa-robot"></i></div>
+                <h3>Nível 3 - Avançado</h3>
+                <p>Robótica competitiva, inteligência artificial, IoT e preparação para olimpíadas de robótica.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Aplicar conceitos teóricos de forma prática</li>
+                    <li><i class="fas fa-check"></i> Estimular a criatividade e a inovação</li>
+                    <li><i class="fas fa-check"></i> Trabalhar colaboração e comunicação</li>
+                    <li><i class="fas fa-check"></i> Resolver problemas reais ou simulados</li>
+                </ul>
+            </div>
+        </div>
+        <div class="program-cta">
+            <p style="margin-bottom: 20px; font-size: 1.1rem;">Mais do que aprender sobre robôs, a robótica educacional nos ajuda a entender como as coisas funcionam ao nosso redor, preparando cada estudante para o futuro de forma prática e divertida. Afinal, aprender pode (e deve) ser algo empolgante! Seja bem-vindo ao mundo da robótica. Prepare-se para imaginar, criar e se surpreender!</p>
+            <button class="btn-primary" id="programWhatsAppBtn"><i class="fab fa-whatsapp"></i> Inscreva-se no programa <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+</section>
+
+    <!-- Bolsas 2026 Section COM BOTÃO WHATSAPP -->
+    <section class="scholarship" id="scholarship">
+        <div class="container">
+            <div class="scholarship-card">
+                <div class="scholarship-badge"><i class="fas fa-star"></i> Oportunidade Única</div>
+                <h2>Bolsas de Estudo <span class="gradient-text">2026</span></h2>
+                <p>Estamos com vagas limitadas para bolsas de estudo parciais e integrais. Não perca a chance de
+                    garantir uma educação de excelência para seu filho com condições especiais.</p>
+                <div class="scholarship-features">
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="feature-text">
+                            <h4>Bolsas por Mérito</h4>
+                            <p>Para alunos com destaque acadêmico</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                        <div class="feature-text">
+                            <h4>Bolsas Sociais</h4>
+                            <p>Para famílias de baixa renda</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                        <div class="feature-text">
+                            <h4>Bolsas Irmãos</h4>
+                            <p>Desconto especial para irmãos</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="feature-text">
+                            <h4>Early Bird</h4>
+                            <p>Desconto para matrículas antecipadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="scholarship-info">
+                    <div class="info-box"><i class="fas fa-percent"></i>
+                        <div><strong>Até 50% de desconto</strong><span>em mensalidades para bolsas parciais</span></div>
+                    </div>
+                    <div class="info-box"><i class="fas fa-graduation-cap"></i>
+                        <div><strong>Bolsas integrais</strong><span>para alunos de destaque</span></div>
+                    </div>
+                    <div class="info-box"><i class="fas fa-clock"></i>
+                        <div><strong>Inscrições abertas</strong><span>até 31 de dezembro de 2025</span></div>
+                    </div>
+                </div>
+                <div class="scholarship-buttons">
+                    <button class="btn-primary" id="scholarshipWhatsAppBtn"><i class="fab fa-whatsapp"></i> Inscreva-se
+                        agora <i class="fas fa-arrow-right"></i></button>
+                    <a href="https://drive.google.com/file/d/1PoQ8DYpHfMfiv_e6ejES_8xhEIdzPV6N/view" target="_blank" class="btn-outline">
+                        <i class="fas fa-file-pdf"></i>
+                        Edital
+                    </a>
+
+                    <a href="https://drive.google.com/drive/folders/1FdMTSHTDrnb16Zqmp49WqdVSneTgoMlP" target="_blank" class="btn-outline">
+                        <i class="fas fa-file-alt"></i>
+                        Gabarito
+                    </a>
+                    
+                </div>
+               
+                <div class="scholarship-note"><i class="fas fa-info-circle"></i>
+                    <p>Vagas limitadas. Consulte condições no ato da inscrição.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- LISTA DE MATERIAL SECTION -->
+    <section class="material-list-modern" id="material">
+        <div class="container">
+            <div class="material-header">
+                <span class="section-tag">Documentação</span>
+                <h2>Lista de Material <span class="gradient-text">2026</span></h2>
+                <p>Confira os materiais necessários para cada segmento. Clique nos botões abaixo para acessar as listas
+                    completas em PDF.</p>
+            </div>
+            <div class="material-section">
+                <div class="material-category-header"><i class="fas fa-child"></i>
+                    <h3>Educação Infantil</h3>
+                </div>
+                <div class="material-buttons-grid">
+                    <a href="https://drive.google.com/file/d/1cVre9kAWggJbdtsDMb-6r9EtkfvxWNEu/view?usp=sharing"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>Jardim I</strong><span>Lista completa de materiais</span></div>
+                        <i class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1LOYeXGVMUXr3S5z-KxMdku75awnIr1np/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>Jardim II</strong><span>Lista completa de materiais</span>
+                        </div><i class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="material-section">
+                <div class="material-category-header"><i class="fas fa-book-open"></i>
+                    <h3>Ensino Fundamental I</h3>
+                </div>
+                <div class="material-buttons-grid">
+                    <a href="https://drive.google.com/file/d/13DQLjl03ySobCBKPCYefvwJXSSdSZ7l7/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>1º Ano</strong><span>Lista completa de materiais</span></div><i
+                            class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/14KSZNEisZurKZPOJ_8myjo6Ea8e4KiXU/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>2º Ano</strong><span>Lista completa de materiais</span></div><i
+                            class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1hGn_uyRnpoYyh4aGoDlqwt1qREASeJNy/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>3º Ano</strong><span>Lista completa de materiais</span></div><i
+                            class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1l8GITvA1h2nFX0neUw-FeuBG-hlizDLl/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>4º Ano</strong><span>Lista completa de materiais</span></div><i
+                            class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Xi2rF2-aR__8AMIBw0u4Xwp1xOEWcMJF/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>5º Ano</strong><span>Lista completa de materiais</span></div><i
+                            class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="material-section">
+                <div class="material-category-header"><i class="fas fa-flask"></i>
+                    <h3>Ensino Fundamental II</h3>
+                </div>
+                <div class="material-buttons-grid">
+                    <a href="https://drive.google.com/file/d/1huRClqcVkf9vp1a-YF13u63c7JbzxTjo/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>6º ao 9º Ano</strong><span>Lista completa de materiais</span>
+                        </div><i class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="material-section">
+                <div class="material-category-header"><i class="fas fa-graduation-cap"></i>
+                    <h3>Ensino Médio</h3>
+                </div>
+                <div class="material-buttons-grid">
+                    <a href="https://drive.google.com/file/d/1huRClqcVkf9vp1a-YF13u63c7JbzxTjo/view?usp=drive_link"
+                        class="material-btn" target="_blank"><i class="fas fa-download"></i>
+                        <div class="btn-content"><strong>1º ao 3º Ano</strong><span>Lista completa de materiais</span>
+                        </div><i class="fas fa-external-link-alt link-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="material-note"><i class="fas fa-info-circle"></i>
+                <p>Os arquivos abrirão em uma nova aba. Caso tenha dificuldades para visualizar, entre em contato com a
+                    secretaria da escola.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horários Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <div class="schedule-card">
+                <h3><i class="far fa-clock"></i> Horários de Funcionamento</h3>
+                <div class="schedule-grid">
+                    <div class="schedule-item">
+                        <div class="schedule-icon"><i class="fas fa-sun"></i></div>
+                        <div class="schedule-info"><strong>Integral</strong><span>07h00 às 19h00</span></div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-icon"><i class="fas fa-cloud-sun"></i></div>
+                        <div class="schedule-info"><strong>Manhã</strong><span>07h00 às 12h20</span></div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-icon"><i class="fas fa-moon"></i></div>
+                        <div class="schedule-info"><strong>Tarde</strong><span>13h20 às 18h30</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h3>Nossos Parceiros</h3>
+            <div class="partners-grid">
+                <img src="https://static.wixstatic.com/media/ac5a35_cd8126c82f264124beb08ce4733ebdc3~mv2.png/v1/crop/x_40,y_148,w_411,h_203/fill/w_226,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logos_Poliedro_CMYK_EscolaAssociada%20(1).png"
+                    alt="Poliedro">
+                <img src="https://static.wixstatic.com/media/ac5a35_3123e837f7884812b6759b8577b546da~mv2.png"
+                    alt="Parceiro 2">
+                <img src="https://static.wixstatic.com/media/ac5a35_960383882d9d4839b23ca048b60fffff~mv2.png"
+                    alt="Parceiro 3">
+                <img src="https://static.wixstatic.com/media/ac5a35_9da59dc10fe54abc99e7e6d8550fe353~mv2.png/v1/crop/x_0,y_96,w_1080,h_1138/fill/w_70,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Design%20sem%20nome%20(7).png"
+                    alt="Parceiro 4">
+                <img src="https://static.wixstatic.com/media/ac5a35_53a22f90ff71449c821e47ab61ed7f25~mv2.png/v1/crop/x_0,y_113,w_1080,h_1133/fill/w_114,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ac5a35_53a22f90ff71449c821e47ab61ed7f25~mv2.png"
+                    alt="Parceiro 5">
+                <img src="https://static.wixstatic.com/media/ac5a35_a08c4d70a0ad4d1dbb0feba07e945639~mv2.png"
+                    alt="Parceiro 6">
+                <img src="https://static.wixstatic.com/media/ac5a35_7179209fe3f54e07bcf98d253ea88464~mv2.png/v1/crop/x_40,y_188,w_1791,h_684/fill/w_181,h_69,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4%20CBA-IE.png"
+                    alt="Parceiro 7">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Venha conhecer o Colégio Marcondes</h2>
+                <p>Agende uma visita e descubra por que somos referência em educação</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary">Agende sua visita <i class="fas fa-calendar-check"></i></a>
+                    <a href="#" class="btn-outline-light">Fale conosco <i class="fas fa-comment"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer COM MAPA -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="https://static.wixstatic.com/media/ac5a35_81b5ffb5b8ca4de286ef65eb17a70438~mv2.png/v1/crop/x_10,y_102,w_1039,h_1197/fill/w_223,h_262,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20-%20Col%C3%A9gio%20Marcondes.png"
+                            alt="Logo">
+                    </div>
+                    <p>"Pois será como a árvore plantada junto a ribeiros de águas, a qual dá o seu fruto no seu tempo;
+                        as suas folhas não cairão e tudo quanto fizer prosperará."</p>
+                    <p class="verse">Salmos 1:3</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#courses">Cursos</a></li>
+                        <li><a href="#robotics">Robótica</a></li>
+                        <li><a href="#scholarship">Bolsas 2026</a></li>
+                        <li><a href="#material">Lista de Material</a></li>
+                        <li><a href="#schedule">Horários</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Elísio Teixeira Leite, 6749</li>
+                        <li><i class="fas fa-phone-alt"></i> (11) 3993-2714</li>
+                        <li><i class="fab fa-whatsapp"></i> (11) 94749-3304</li>
+                        <li><i class="fas fa-envelope"></i> colegiomarcondes@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Redes Sociais</h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/colegiomarcondes" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/colegiomarcondessp/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/5511947493304" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <!-- Mini Mapa -->
+                    <div class="footer-map">
+                        <h4>Localização</h4>
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.123456789012!2d-46.693419!3d-23.550650!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a7dccf%3A0x2b7a8b5b5b5b5b5b!2sAv.%20El%C3%ADsio%20Teixeira%20Leite%2C%206749%20-%20Cidade%20Jardim%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                                width="100%" height="150" style="border:0; border-radius: 12px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <p class="map-address">Av. Elísio Teixeira Leite, 6749 - Cidade Jardim, São Paulo - SP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 por COLÉGIO MARCONDES. Orgulhosamente criado por Colégio Marcondes</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
